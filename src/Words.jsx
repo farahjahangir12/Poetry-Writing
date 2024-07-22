@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const api_key = import.meta.env.VITE_API_KEY;
+const api_key ="AIzaSyDVEBBiLp2jETxBsXL9-qfb9hsLxUnYLlI"
 const genAI = new GoogleGenerativeAI(api_key);
 
 function Words({title,list,setList }) {
